@@ -1,0 +1,15 @@
+baseURL: "https://tehtarik_n_code.github.io"
+title: "Teh Tarik n Code"
+theme: ["PaperMod"]
+params:
+  defaultTheme: auto
+  profileMode:
+    enabled: true
+    subtitle: "Next event: 26th July 2025, TBD"
+    # Thanks muraya, https://commons.wikimedia.org/wiki/File:Teh_Tarik_Illustration_Regular_Mug.jpg
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/e/eb/Teh_Tarik_Illustration_Regular_Mug.jpg"
+    buttons:
+      - name: FAQ
+        url: "/faq" 
+      - name: Details
+        url: "/location"

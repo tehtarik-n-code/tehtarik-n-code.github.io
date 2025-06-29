@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Teh Tarik n Code</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Teh Tarik n Code</description>
+    <generator>Hugo -- 0.147.9</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 29 Jun 2025 14:50:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FAQ</title>
+      <link>http://localhost:1313/faq/</link>
+      <pubDate>Sun, 29 Jun 2025 14:50:00 +0800</pubDate>
+      <guid>http://localhost:1313/faq/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;What is this about?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This is a social meet for people that work in tech.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What is the agenda?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;There is no fix agenda, that said, you are free to come to ask question, ask for help in tech. We won&amp;rsquo;t be fixing your printer though.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Who is the target audience?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Anyone that work in tech/software/computer. Even if you are not working in the technical side of the business.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Location</title>
+      <link>http://localhost:1313/location/</link>
+      <pubDate>Sun, 29 Jun 2025 14:50:00 +0800</pubDate>
+      <guid>http://localhost:1313/location/</guid>
+      <description>&lt;p&gt;Location will be here once we decide the location&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Next meeting</title>
+      <link>http://localhost:1313/posts/next_meeting/</link>
+      <pubDate>Sun, 29 Jun 2025 14:36:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/next_meeting/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

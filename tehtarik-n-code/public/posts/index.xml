@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Teh Tarik n Code</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Teh Tarik n Code</description>
+    <generator>Hugo -- 0.147.9</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 29 Jun 2025 14:36:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Next meeting</title>
+      <link>http://localhost:1313/posts/next_meeting/</link>
+      <pubDate>Sun, 29 Jun 2025 14:36:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/next_meeting/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
