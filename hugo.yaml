@@ -1,6 +1,9 @@
 baseURL: "https://tehtarik_n_code.github.io"
 title: "Teh Tarik n Code"
 theme: ["PaperMod"]
+caches:
+  images:
+    dir: :cacheDir/images
 params:
   defaultTheme: auto
   profileMode:
