@@ -16,3 +16,5 @@ params:
         url: "/faq" 
       - name: Details
         url: "/location"
+      - name: discord
+        url: "https://discord.com/channels/811472318080483358/811472319876562989"
