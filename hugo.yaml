@@ -18,3 +18,7 @@ params:
         url: "/location"
       - name: discord
         url: "https://discord.gg/FQhdmUk4BU"
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
