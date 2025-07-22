@@ -5,12 +5,12 @@ title: FAQ
 
 **What is this about?**
 
-This is a social meet for people that work in tech.
+This is a social meet-up for people who work in tech.
 
 **What is the agenda?**
 
-There is no fix agenda, that said, you are free to come to ask question, ask for help in tech. We won't be fixing your printer though.
+There is no fixed agenda. That said, feel free to come and ask questions or ask for help with tech-related issues. We won't be fixing your printer, though!
 
 **Who is the target audience?**
 
-Anyone that work in tech/software/computer. Even if you are not working in the technical side of the business.  
+Anyone who works in tech/software/computers, even if you are not on the technical side of the business.
