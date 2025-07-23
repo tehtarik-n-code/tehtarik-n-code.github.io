@@ -18,6 +18,8 @@ params:
         url: "/location"
       - name: discord
         url: "https://discord.gg/FQhdmUk4BU"
+      - name: Github
+        url: "https://github.com/tehtarik-n-code/tehtarik-n-code.github.io"
 markup:
   goldmark:
     renderer:
