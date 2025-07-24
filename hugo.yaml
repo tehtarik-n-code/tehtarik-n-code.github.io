@@ -8,7 +8,8 @@ params:
   defaultTheme: auto
   profileMode:
     enabled: true
-    subtitle: | 
+    subtitle: |
+
       Next event: 26th July 2025, 2PM, Kafe Dolce, Lalaport BBCC
 
       ~~RSVP~~, just turn up :)
@@ -16,19 +17,21 @@ params:
       {{< details summary="Outdated event ? " >}}
         Poke @SweeMeng in Discord
       {{< /details >}}
+      
+      {{< render_countdown nextEventDateTime="2025-07-26T14:00:00+08:00" >}}  
 
     # Thanks muraya, https://commons.wikimedia.org/wiki/File:Teh_Tarik_Illustration_Regular_Mug.jpg
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/e/eb/Teh_Tarik_Illustration_Regular_Mug.jpg"
     buttons:
       - name: FAQ
-        url: "/faq" 
+        url: "/faq"
       - name: Details
         url: "/location"
       - name: discord
         url: "https://discord.gg/FQhdmUk4BU"
       - name: Github
         url: "https://github.com/tehtarik-n-code/tehtarik-n-code.github.io"
-    
+
 markup:
   goldmark:
     renderer:
