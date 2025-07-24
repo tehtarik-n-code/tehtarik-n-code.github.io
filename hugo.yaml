@@ -13,7 +13,9 @@ params:
 
       ~~RSVP~~, just turn up :)
 
-      Outdated event ? Poke @SweeMeng in Discord
+      {{< details summary="Outdated event ? " >}}
+        Poke @SweeMeng in Discord
+      {{< /details >}}
 
     # Thanks muraya, https://commons.wikimedia.org/wiki/File:Teh_Tarik_Illustration_Regular_Mug.jpg
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/e/eb/Teh_Tarik_Illustration_Regular_Mug.jpg"
