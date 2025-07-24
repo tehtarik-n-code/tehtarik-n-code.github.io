@@ -1,29 +1,28 @@
-<table id="data" data-date-time="{{  .Get "nextEventDateTime" }}">
-    <tbody>
-        <tr>
-            <td id='days'>00</td>
-            <td id='hours'>00</td>
-            <td id='mins'>00</td>
-            <td id='secs'>00</td>
-        </tr>
-        <tr>
-            <td>days</td>
-            <td>hours</td>
-            <td>mins</td>
-            <td>secs</td>
-        </tr>
-    </tbody>
-</table>
+<div class="countdown-table" data-date-time="{{  .Get "nextEventDateTime" }}">
+    <div id='days'>00</div>
+    <div id='hours'>00</div>
+    <div id='mins'>00</div>
+    <div id='secs'>00</div>
+    <div>days</div>
+    <div>hours</div>
+    <div>mins</div>
+    <div>secs</div>
+</div>
 
 <style>
-    td {
-        width: 25vw;
-        padding: 8px;
+    .countdown-table {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 2vh;
+    }
+    .countdown-table div{
+
     }
 </style>
 
-<script>
-    const inputDateTimeString = document.querySelector('#data').getAttribute("data-date-time")
+<script defer>
+    const inputDateTimeString = document.querySelector('.countdown-table').getAttribute("data-date-time")
     const nextEventDateTime = new Date(inputDateTimeString)
 
     const findRemainDayHrMinSec = (timeDiff) => {
