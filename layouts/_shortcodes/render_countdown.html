@@ -1,0 +1,73 @@
+<div class="countdown-table" data-date-time="{{  .Get "nextEventDateTime" }}">
+    <div id='days'>00</div>
+    <div id='hours'>00</div>
+    <div id='mins'>00</div>
+    <div id='secs'>00</div>
+    <div>days</div>
+    <div>hours</div>
+    <div>mins</div>
+    <div>secs</div>
+</div>
+
+<style>
+    .countdown-table {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 2vh;
+    }
+    .countdown-table div{
+
+    }
+</style>
+
+<script defer>
+    const inputDateTimeString = document.querySelector('.countdown-table').getAttribute("data-date-time")
+    const nextEventDateTime = new Date(inputDateTimeString)
+
+    const findRemainDayHrMinSec = (timeDiff) => {
+        const day = Math.floor(timeDiff / 24 / 60 / 60)
+        timeDiff -= day * 24 * 60 * 60
+
+        const hour = Math.floor(timeDiff / 60 / 60)
+        timeDiff -= hour * 60 * 60
+
+        const min = Math.floor(timeDiff / 60)
+        timeDiff -= min * 60
+
+        const sec = Math.floor(timeDiff)
+
+        return { day, hour, min, sec }
+    }
+
+    const updateEl = (day, hour, min, sec) => {
+        // console.log({ day, hour, min, sec })
+        const dayEl = document.querySelector('#days')
+        const hourEl = document.querySelector('#hours')
+        const minEl = document.querySelector('#mins')
+        const secEl = document.querySelector('#secs')
+
+        dayEl.textContent = day
+        hourEl.textContent = hour
+        minEl.textContent = min
+        secEl.textContent = sec
+    }
+
+    const runTimer = () => {
+
+        const timer = setInterval(() => {
+            const now = new Date()
+            const timeDiff = (nextEventDateTime - now) / 1000       // in sec
+            if (timeDiff > 0) {
+                const { day, hour, min, sec } = findRemainDayHrMinSec(timeDiff)
+                updateEl(day, hour, min, sec)
+            } else {
+                // CLEANUP : time's up, stop timer
+                clearInterval(timer)
+            }
+        }, 1000)    // 1 sec interval
+    }
+
+    runTimer()
+
+</script>
