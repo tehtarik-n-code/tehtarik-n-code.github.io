@@ -18,7 +18,7 @@ params:
         Poke @SweeMeng in Discord
       {{< /details >}}
       
-      {{< render_countdown nextEventDateTime="2025-07-26T14:00:00+08:00" >}}  
+      {{< render_countdown nextEventDateTime="2025-08-30T14:00:00+08:00" >}}  
 
       {{< render_add_to_calender >}}
 
