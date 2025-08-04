@@ -1,11 +1,11 @@
 ---
-date: 2025-06-29T14:50:00+08:00
+date: 2025-08-04T13:25:00+08:00
 title: Details
 ---
 
 Next event will be held at eclipse Café at Lalaport BBCC, at the former Pudu Jail. 
 
-Date      : 26th July 2025 (Sat)
+Date      : 30th Aug 2025 (Sat)
 
 Time      : 2pm
 
