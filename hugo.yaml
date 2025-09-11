@@ -10,7 +10,7 @@ params:
     enabled: true
     subtitle: |
 
-      Next event: 30th August 2025, 2PM, eclipse Café, Lalaport BBCC
+      Next event: 27th Sept 2025, 11AM, A&W PJ, Lorong Sultan, Pjs 52, 46000 Petaling Jaya, Selangor
 
       ~~RSVP~~, just show up :)
 
@@ -18,7 +18,7 @@ params:
         Poke @SweeMeng in Discord
       {{< /details >}}
       
-      {{< render_countdown nextEventDateTime="2025-08-30T14:00:00+08:00" >}}  
+      {{< render_countdown nextEventDateTime="2025-09-27T11:00:00+08:00" >}}  
 
       {{< render_add_to_calender >}}
 
