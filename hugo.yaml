@@ -33,6 +33,8 @@ params:
         url: "https://discord.gg/FQhdmUk4BU"
       - name: Github
         url: "https://github.com/tehtarik-n-code/tehtarik-n-code.github.io"
+      - name: Past Events
+        url: "/past-events/"
 
 markup:
   goldmark:
