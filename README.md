@@ -1,5 +1,6 @@
 # How to Contribute
 
+[Published Site](https://tehtarik-n-code.github.io/) for reference
 
 ## Prerequisites
 
@@ -13,7 +14,7 @@
 
 1. fork repo
     ``` 
-    git clone  https://github.com/tehtarik-n-code/tehtarik-n-code.github.io.git
+    git clone https://github.com/tehtarik-n-code/tehtarik-n-code.github.io.git
     ```
 
 1. cd
