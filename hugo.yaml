@@ -10,7 +10,7 @@ params:
     enabled: true
     subtitle: |
 
-      Next event: 29th Nov 2025, 2PM, TBD
+      Next event: 15th Nov 2025, 12PM, Faculty of Computing Informatics, Multimedia University, Cyberjaya
 
       ~~RSVP~~, just show up :)
 
@@ -18,7 +18,7 @@ params:
         Poke @SweeMeng in Discord
       {{< /details >}}
       
-      {{< render_countdown nextEventDateTime="2025-11-29T14:00:00+08:00" >}}  
+      {{< render_countdown nextEventDateTime="2025-11-15T12:00:00+08:00" >}}  
 
       {{< render_add_to_calender >}}
 
